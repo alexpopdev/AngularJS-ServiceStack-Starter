@@ -5,6 +5,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Star
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Starter.Core", "AngularJS-ServiceStack-Starter.Core\AngularJS-ServiceStack-Starter.Core.csproj", "{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2EBF62A2-0437-4803-A9BB-D79B90A9DA1A}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Starter.Tests", "AngularJS-ServiceStack-Starter.Tests\AngularJS-ServiceStack-Starter.Tests.csproj", "{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +28,10 @@ Global
 		{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
