@@ -1,0 +1,86 @@
+﻿@using System.Web.Optimization
+<!DOCTYPE html>
+<html lang="en-gb" xmlns:ng="http://angularjs.org" id="ng-app" ng-app="starterApp">
+<head>
+    <!--[if lte IE 8]>
+      <script>
+        document.createElement('ng-include');
+        document.createElement('ng-pluralize');
+        document.createElement('ng-view');
+ 
+        // Optionally these for CSS
+        document.createElement('ng:include');
+        document.createElement('ng:pluralize');
+        document.createElement('ng:view');
+      </script>
+    <![endif]-->
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <title>@ViewBag.Title</title>
+    <link href="~/favicon.ico" rel="shortcut icon" type="image/x-icon" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    @Styles.Render("~/Content/css", "~/Content/sitecss")
+
+    @Scripts.Render("~/bundles/legacy-browsers")
+</head>
+<body ng-controller="applicationController">
+    <header>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="navbar-inner">
+                <div class="container">
+                    <button type="button" class="btn btn-navbar" ng-click="isMenuCollapsed = !isMenuCollapsed">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </button>
+                    @Html.ActionLink((string)ViewBag.Title, "Index", "Home", null, null, "/", null, new { @class = "brand" })
+                    <div class="nav-collapse collapse" collapse="isMenuCollapsed">
+                        <ul class="nav">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle"
+                                   data-toggle="dropdown"
+                                   href="#">Menu1<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#/menu1/submenu1">Sub menu 1</a></li>
+                                    <li><a href="#/menu1/submenu2">Sub menu2</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                        <ul class="nav pull-right">
+                            <li class="dropdown">
+                                <a class="dropdown-toggle"
+                                   data-toggle="dropdown"
+                                   href="#">@ViewBag.UserName<b class="caret"></b></a>
+                                <ul class="dropdown-menu">
+                                    <li><a href="#/myinfo">My info</a></li>
+                                </ul>
+                            </li>
+                        </ul>
+                    </div>
+                    <!--/.nav-collapse -->
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="mainSection">
+        <div id="progressIndicator" style="display: none"></div>
+        <div class="container">
+            <div class="row">
+                @RenderBody()
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="container">
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/basejs")
+    @Scripts.Render("~/bundles/angular")
+    @Scripts.Render("~/bundles/angularui")
+    @Scripts.Render("~/bundles/app")
+    @RenderSection("scripts", required: false)
+</body>
+</html>
+
+

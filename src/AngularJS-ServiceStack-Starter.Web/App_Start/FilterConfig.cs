@@ -1,7 +1,6 @@
-﻿using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
-namespace AngularJS_ServiceStack_Starter
+namespace AngularJS_ServiceStack_Starter.Web.App_Start
 {
     public class FilterConfig
     {
