@@ -1,9 +1,9 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Starter.Web", "AngularJS-ServiceStack-Starter.Web\AngularJS-ServiceStack-Starter.Web.csproj", "{B94DD63A-EEB0-4FD3-80D7-2BD79F868D20}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS_ServiceStack_Starter.Web", "AngularJS-ServiceStack-Starter.Web\AngularJS_ServiceStack_Starter.Web.csproj", "{B94DD63A-EEB0-4FD3-80D7-2BD79F868D20}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Starter.Core", "AngularJS-ServiceStack-Starter.Core\AngularJS-ServiceStack-Starter.Core.csproj", "{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS_ServiceStack_Starter.Core", "AngularJS-ServiceStack-Starter.Core\AngularJS_ServiceStack_Starter.Core.csproj", "{74BF3253-1C55-4D4E-B4E1-2CF58F83BEEB}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2EBF62A2-0437-4803-A9BB-D79B90A9DA1A}"
 	ProjectSection(SolutionItems) = preProject
@@ -12,7 +12,7 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{2EBF62
 		.nuget\NuGet.targets = .nuget\NuGet.targets
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS-ServiceStack-Starter.Tests", "AngularJS-ServiceStack-Starter.Tests\AngularJS-ServiceStack-Starter.Tests.csproj", "{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularJS_ServiceStack_Starter.Tests", "AngularJS-ServiceStack-Starter.Tests\AngularJS_ServiceStack_Starter.Tests.csproj", "{B24DF7F0-CCD9-49CC-B41E-135D4BCAE95B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

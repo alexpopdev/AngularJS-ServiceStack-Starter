@@ -3,13 +3,15 @@
     
     var appModule = angular.module('starterApp');
 
-    appModule.controller('dashboardController', ['$scope',  function ($scope) {
+    appModule.controller('dashboardController', ['$scope', function dashboardController($scope) {
 
-        $scope.announcements = [];
+        $scope.viewModel = {
+            announcements: []
+        };
         
         $scope.init = function () {
 
-            $scope.announcements = ["Announcement1", "Announcement2"];
+           $scope.viewModel.announcements = ["Client-side Announcement1", "Client-side Announcement2"];
         };
 
         $scope.init();

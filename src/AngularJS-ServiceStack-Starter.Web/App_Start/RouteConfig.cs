@@ -8,6 +8,7 @@ namespace AngularJS_ServiceStack_Starter.Web.App_Start
         public static void RegisterRoutes(RouteCollection routes)
         {
             routes.IgnoreRoute("{resource}.axd/{*pathInfo}");
+            routes.IgnoreRoute("api/{*pathInfo}");
 
             routes.MapRoute(
                 name: "Default",

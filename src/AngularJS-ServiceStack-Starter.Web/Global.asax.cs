@@ -11,6 +11,10 @@ namespace AngularJS_ServiceStack_Starter.Web
     {
         protected void Application_Start()
         {
+
+            var appHost = new WebAppHost();
+            appHost.Init();
+            
             AreaRegistration.RegisterAllAreas();
             
             FilterConfig.RegisterGlobalFilters(GlobalFilters.Filters);

@@ -7,7 +7,8 @@
     <div class="span12">
         <div class="alert alert-info alert-block">
             <h4>Announcements</h4>
-            <p class="lead">There are no announcements at the moment.</p>
+            <p ng-if="viewModel.announcements.length == 0" class="lead">There are no announcements at the moment.</p>
+            <p ng-repeat="announcement in viewModel.announcements" class="lead">{{announcement}}</p>
         </div>
     </div>
 </div>
