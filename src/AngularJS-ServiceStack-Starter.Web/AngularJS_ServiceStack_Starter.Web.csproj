@@ -194,6 +194,7 @@
     <Content Include="Scripts\app\app.js" />
     <Content Include="Scripts\app\controllers\applicationController.js" />
     <Content Include="Scripts\app\controllers\dashboardController.js" />
+    <Content Include="Scripts\app\services\announcementsService.js" />
     <Content Include="Scripts\app\views\dashboard.html" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

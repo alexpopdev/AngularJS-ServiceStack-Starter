@@ -29,8 +29,8 @@ namespace AngularJS_ServiceStack_Starter.Web.App_Start
             bundles.Add(new ScriptBundle("~/bundles/app").Include(
                 "~/Scripts/app/app.js",
                 //"~/Scripts/app/filters/*.js",
-                //"~/Scripts/app/services/*.js",
                 //"~/Scripts/app/directives/*.js",
+                "~/Scripts/app/services/*.js",
                 "~/Scripts/app/controllers/*.js"));
 
             bundles.Add(new StyleBundle("~/Content/css").Include(

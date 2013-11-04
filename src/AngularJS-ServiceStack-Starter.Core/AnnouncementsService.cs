@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
+using System.Threading;
 using System.Threading.Tasks;
 using ServiceStack.ServiceInterface;
 
@@ -9,12 +10,19 @@ namespace AngularJS_ServiceStack_Starter.Core
 {
     public class AnnouncementsService : Service
     {
-        public string[] Get(GetAnnouncementsRequest request)
+        public List<Announcement> Get(GetAnnouncementsRequest request)
         {
-            return new[]
+            Thread.Sleep(2000);
+            return new List<Announcement>
             {
-                "Server-side Announcement1",
-                "Server-side Announcement2"
+               new Announcement{
+                   Id = 1, 
+                   Content="Server-side Announcement1"
+               },
+               new Announcement{
+                   Id = 2,
+                Content = "Server-side Announcement2"
+               }
             };
         }
     }

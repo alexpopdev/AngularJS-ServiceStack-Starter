@@ -72,6 +72,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Announcement.cs" />
     <Compile Include="AnnouncementsService.cs" />
     <Compile Include="AppHost.cs" />
     <Compile Include="GetAnnouncementsRequest.cs" />
