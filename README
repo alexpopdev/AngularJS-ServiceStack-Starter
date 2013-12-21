@@ -1,1 +1,2 @@
 An AngularJS and ServiceStack starter solution that exemplifies the use of the built in ASP.NET Windows authentication together with ServiceStack webservices.
+See this blog post for further details: http://alexvpop.blogspot.co.uk/2013/12/angularjs-servicestack.html
