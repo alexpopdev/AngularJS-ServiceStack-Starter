@@ -1,4 +1,4 @@
 An AngularJS and ServiceStack starter solution that exemplifies the use of the built in ASP.NET Windows authentication together with ServiceStack webservices.
 See this blog post for further details: http://alexvpop.blogspot.co.uk/2013/12/angularjs-servicestack.html
 
-A key part of this project around sharing the ASP.NET session with ServiceStack was taken from a StackOverflow answer.
+A key part of this project around sharing the ASP.NET session with ServiceStack was taken from a StackOverflow answer: http://stackoverflow.com/a/9193782/523296
