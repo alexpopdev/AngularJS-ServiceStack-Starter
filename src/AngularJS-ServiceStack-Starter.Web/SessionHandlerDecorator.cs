@@ -3,6 +3,7 @@ using System.Web.SessionState;
 
 namespace AngularJS_ServiceStack_Starter.Web
 {
+    // taken from StackOverflow answer http://stackoverflow.com/a/9193782/523296
     public class SessionHandlerDecorator : IHttpHandler, IRequiresSessionState
     {
         private IHttpHandler Handler { get; set; }
