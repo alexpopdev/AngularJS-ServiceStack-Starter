@@ -3,6 +3,7 @@ using ServiceStack.WebHost.Endpoints;
 
 namespace AngularJS_ServiceStack_Starter.Web
 {
+    // taken from StackOverflow answer: http://stackoverflow.com/a/9193782/523296
     public class SessionHttpHandlerFactory : IHttpHandlerFactory
     {
         private readonly static ServiceStackHttpHandlerFactory factory = new ServiceStackHttpHandlerFactory();
